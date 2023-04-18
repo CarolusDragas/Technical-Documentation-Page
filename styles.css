@@ -1,0 +1,20 @@
+header { font-size: 26;}
+p, li {text-align: justify;}
+p { color: rgb(54, 69, 79); }
+body { margin: 0; font-family: tahoma; }
+nav { position: fixed; top: 0; left: 0; width: 300px; height: 100%; text-align: justify; justify-content: left; overflow: scroll; padding-right: 10px; border-right: solid; border-width: meidum; border-right-color: grey; letter-spacing: 0.02em; }
+main { margin-left: 300px; padding-left: 60px; padding-right: 60px; padding-bottom: 60px; padding-top: 40px; letter-spacing: 0.02em; line-height: 1.5; }
+.main-section ul li { color: rgb(54, 69, 79);}
+nav a { text-decoration: none; display: block; color: rgb(54, 69, 79); }
+.main-section ul { margin-left: 30px;}
+.main-section code { margin-left: 10px;text-align: left; display: block;}
+div { width: 100%; border-bottom:  solid black; border-width: thin; padding: 14px; }
+body:not(code) { font-family: tahoma; }
+code {font-size: 13px; color: crimson; background-color: rgb(229, 228, 226); padding-left: 20px; padding-top: 20px; padding-bottom: 20px; }
+.above { border-radius: 5px 5px 0 0; margin-bottom: -30px; }
+.below { border-radius: 0 0 5px 5px;}
+#third { margin-top: -30px;}  
+.normal { border-radius: 5px; }
+#nav { padding-left: 20px;}
+#Global_variables, #Data_types, #while_statement { padding-top: 20px;}
+@media only screen and (max-width: 1020px) { [class*="main-section"] { width: 100%; } }
